@@ -12,7 +12,8 @@ var highScore;
 var stars;
 var cursors;
 var noStars = 12;
-var score=0;
+var planet;
+var enemy1;
 // define MainMenu state and methods
 var MainMenu = function(game) {};
 MainMenu.prototype = {
